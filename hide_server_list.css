@@ -1,0 +1,11 @@
+/* only show the server list on hover */
+.guilds__5e434 {
+	width: 25px;
+	transition: 0.25s ease-in-out;
+	opacity: 0;
+
+	&:hover {
+		width: var(--custom-guild-list-width);
+		opacity: 1;
+	}
+}
