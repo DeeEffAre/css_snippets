@@ -1,0 +1,37 @@
+div[class*="channelTextArea"]:not([class*="popout"]):not([class*="modal"]) {
+	background: transparent !important;
+}
+
+form[class*="form"] {
+	background: transparent !important;
+}
+
+div[class*="textArea"]:not([class*="popout"]):not([class*="modal"]) {
+	background: transparent !important;
+}
+
+div[class*="channelTextArea"] [class*="attachButton"],
+div[class*="channelTextArea"] [class*="emojiButton"] {
+	background: transparent !important;
+}
+
+div[class*="channelTextArea"] div[class*="scrollableContainer"] {
+	background: transparent !important;
+}
+
+div[class*="channelTextArea"] div[class*="innerContainer"] {
+	background: transparent !important;
+}
+
+div[class*="channelTextArea"] [class*="textArea"] {
+	color: var(--text-normal) !important;
+}
+
+div[class*="channelTextArea"] [class*="placeholder"] {
+	color: var(--text-muted) !important;
+}
+
+div[class*="channelTextArea"] button[class*="attachButton"]:hover,
+div[class*="channelTextArea"] button[class*="emojiButton"]:hover {
+	background-color: var(--background-modifier-hover) !important;
+}
